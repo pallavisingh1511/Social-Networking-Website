@@ -5,11 +5,12 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 
-		<title>Member: Dobble Social Network</title>
+		<title>Photos: Dobble Social Network</title>
 
 		<!-- Bootstrap core CSS -->
 		<link href="css/bootstrap.css" rel="stylesheet">
 		<link href="css/font-awesome.css" rel="stylesheet">
+		<link href="css/ekko-lightbox.css" rel="stylesheet">
 		<!-- Custom styles for this template -->
 		<link href="css/style.css" rel="stylesheet">
 	</head>
@@ -50,9 +51,9 @@
         <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
             <li><a href="index.html">Home</a></li>
-            <li class="active"><a href="members.html">Members</a></li>
+            <li><a href="members.html">Members</a></li>
             <li><a href="groups.html">Groups</a></li>
-			<li><a href="photos.html">Photos</a></li>
+			<li class="active"><a href="photos.html">Photos</a></li>
             <li><a href="profile.html">Profile</a></li>
           </ul>
         </div><!--/.nav-collapse -->
@@ -63,96 +64,14 @@
       	<div class="container">
 		  	<div class="row">
 				<div class="col-md-8">
-					<div class="members">
-						<h1 class="page-header">Members</h1>
-							<div class="row member-row">
-								<div class="col-md-3">
-									<img src="img/user.png" class="img-thumbnail">
-									<div class="text-center">SomeUser01</div>
-								</div>
-								
-								<div class="col-md-3">
-									<p><a href="#" class="btn btn-success btn-block"><i class="fa fa-users"></i> Add Friend</a></p>
-								</div>
-								
-								<div class="col-md-3">
-									<p><a href="#" class="btn btn-default btn-block"><i class="fa fa-envelope"></i> Send Message</a></p>
-
-								</div>
-								
-								<div class="col-md-3">
-									<p><a href="#" class="btn btn-primary btn-block"><i class="fa fa-edit"></i> View Profile</a></p>
-
-								</div>
-							</div>
-						
-							<div class="row member-row">
-								<div class="col-md-3">
-									<img src="img/user.png" class="img-thumbnail">
-									<div class="text-center">SomeUser02</div>
-								</div>
-								
-								<div class="col-md-3">
-									<p><a href="#" class="btn btn-success btn-block"><i class="fa fa-users"></i> Add Friendt</a></p>
-								</div>
-								
-								<div class="col-md-3">
-									<p><a href="#" class="btn btn-default btn-block"><i class="fa fa-envelope"></i> Send Message</a></p>
-
-								</div>
-								
-								<div class="col-md-3">
-									<p><a href="#" class="btn btn-primary btn-block"><i class="fa fa-edit"></i> View Profile</a></p>
-
-								</div>
-							</div>
-							
-							<div class="row member-row">
-								<div class="col-md-3">
-									<img src="img/user.png" class="img-thumbnail">
-									<div class="text-center">SomeUser03</div>
-								</div>
-								
-								<div class="col-md-3">
-									<p><a href="#" class="btn btn-success btn-block"><i class="fa fa-users"></i> Add Friend</a></p>
-								</div>
-								
-								<div class="col-md-3">
-									<p><a href="#" class="btn btn-default btn-block"><i class="fa fa-envelope"></i> Send Message</a></p>
-
-								</div>
-								
-								<div class="col-md-3">
-									<p><a href="#" class="btn btn-primary btn-block"><i class="fa fa-edit"></i> View Profile</a></p>
-
-								</div>
-							</div>
-						
-							<div class="row member-row">
-								<div class="col-md-3">
-									<img src="img/user.png" class="img-thumbnail">
-									<div class="text-center">SomeUser04</div>
-								</div>
-								
-								<div class="col-md-3">
-									<p><a href="#" class="btn btn-success btn-block"><i class="fa fa-users"></i> Add Friend</a></p>
-								</div>
-								
-								<div class="col-md-3">
-									<p><a href="#" class="btn btn-default btn-block"><i class="fa fa-envelope"></i> Send Message</a></p>
-
-								</div>
-								
-								<div class="col-md-3">
-									<p><a href="#" class="btn btn-primary btn-block"><i class="fa fa-edit"></i> View Profile</a></p>
-
-								</div>
-							</div>
-						
-							
-						
-					
-					</div>
+					<h1 class="page-header">Photos</h1>
+					<ul class="photos gallery-parent">
+						<li><a href = "img/sample1.jpg" data-toggle="lightbox" data-footer="This is Image 1" data-title="Image One" data-gallery="mygallery" data-parent=".gallery-parent" data-hover="tooltip" data-placement="top" title="This is image one"><img src="img/sample1.jpg" class="img-thumbnail"></a></li>
+						<li><a href = "img/sample2.jpg" data-toggle="lightbox" data-footer="This is Image 2" data-title="Image Two" data-gallery="mygallery" data-parent=".gallery-parent" data-hover="tooltip" data-placement="top" title="This is image two"><img src="img/sample2.jpg" class="img-thumbnail"></a></li>
+						<li><a href = "img/sample3.jpg" data-toggle="lightbox" data-footer="This is Image 3" data-title="Image Three" data-gallery="mygallery" data-parent=".gallery-parent" data-hover="tooltip" data-placement="top" title="This is image three"><img src="img/sample3.jpg" class="img-thumbnail"></a></li>
+						<li><a href = "img/sample4.jpg" data-toggle="lightbox" data-footer="This is Image 4" data-title="Image Four" data-gallery="mygallery" data-parent=".gallery-parent" data-hover="tooltip" data-placement="top" title="This is image four"><img src="img/sample4.jpg" class="img-thumbnail"></a></li>
+						<li><a href = "img/sample5.jpg" data-toggle="lightbox" data-footer="This is Image 5" data-title="Image Five" data-gallery="mygallery" data-parent=".gallery-parent" data-hover="tooltip" data-placement="top" title="This is image five"><img src="img/sample5.jpg" class="img-thumbnail"></a></li>					
+					</ul>
 				</div><!-- col-md-8 end -->
 				
 				<div class="col-md-4">
@@ -224,6 +143,16 @@
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="js/bootstrap.js"></script>
-   
+	<script src="js/ekko-lightbox.js"></script>
+   	<script>
+			$(document).delegate('*[data-toggle="lightbox"]', 'click', function(event) {
+			event.preventDefault();
+			$(this).ekkoLightbox();
+			}); 
+		
+		$(function () {
+		  $('[data-hover="tooltip"]').tooltip()
+		})
+	</script>
   </body>
 </html>
